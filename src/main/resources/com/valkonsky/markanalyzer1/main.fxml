@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.valkonsky.markanalyzer1.MainController">
+    <top>
+        <MenuBar>
+            <Menu text="Файл">
+                <MenuItem text="Загрузить" ></MenuItem>
+                <MenuItem text="Выгрузить во внешний файл"></MenuItem>
+            </Menu>
+        </MenuBar>
+    </top>
+    <center>
+        <Button text="AllClasses" />
+    </center>
+    <left>
+        <ListView fx:id="schoolData"></ListView>
+    </left>
+    <right>
+    </right>
+    <bottom>
+
+    </bottom>
+</BorderPane>
